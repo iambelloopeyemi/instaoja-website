@@ -6,10 +6,10 @@ import Copyright from "./Copyright";
 
 export default function Footer() {
   return (
-    <footer className="px-20">
+    <footer className="bg-white px-20">
       <div className="px-6 py-12 grid gap-6">
         <div className="flex justify-start">
-          <Logo />
+          <Logo width={200} height={200} />
         </div>
         <div className="grid grid-cols-2">
           <div className="flex justify-end">
