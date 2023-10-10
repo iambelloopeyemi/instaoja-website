@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { montserrat } from "./utils/Fonts";
+import Header from "./components/header";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
@@ -15,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} text-jet flex flex-col`}>
+      <body
+        className={`bg-nyanza ${montserrat.className} text-jet flex flex-col`}
+      >
+        <Header />
         <main className="grow min-h-screen">{children}</main>
         <Footer />
       </body>
