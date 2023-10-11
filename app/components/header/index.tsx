@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="flex justify-between items-center">
         <Logo width={180} height={180} />
         <div>
-          <Button url="#" text="get started" />
+          <Button url="#" text="join waitlist" />
         </div>
       </nav>
     </header>

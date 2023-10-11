@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { montserrat } from "./utils/Fonts";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
