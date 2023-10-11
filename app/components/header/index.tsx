@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <header className="px-20 py-4">
       <nav className="flex justify-between items-center">
-        <Logo width={180} height={180} />
+        <div>
+          <Logo width={180} height={180} />
+        </div>
         <div>
           <Button url="#" text="join waitlist" />
         </div>
