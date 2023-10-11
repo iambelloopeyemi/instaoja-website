@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface LogoProp {
   width: number;
@@ -7,13 +8,15 @@ interface LogoProp {
 
 export default function Logo({ width, height }: LogoProp) {
   return (
-    <div className="w-auto h-auto">
-      <Image
-        src="/instaoja_logo.png"
-        alt="instaoja logo"
-        width={width}
-        height={height}
-      />
-    </div>
+    <>
+      <Link href="/" className="w-auto h-auto">
+        <Image
+          src="/instaoja_logo.png"
+          alt="instaoja logo"
+          width={width}
+          height={height}
+        />
+      </Link>
+    </>
   );
 }
