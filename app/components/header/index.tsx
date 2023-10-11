@@ -3,7 +3,7 @@ import Logo from "../Logo";
 
 export default function Header() {
   return (
-    <header className="bg-white border rounded shadow-inner px-20 py-4">
+    <header className="px-20 py-4">
       <nav className="flex justify-between items-center">
         <Logo width={180} height={180} />
         <div>
