@@ -1,4 +1,4 @@
-import WaitListForm from "../WaitListForm";
+import WaitListForm from "./WaitListForm";
 
 export default function WaitList() {
   return (

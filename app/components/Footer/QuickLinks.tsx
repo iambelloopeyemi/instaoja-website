@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { transformLinks } from "@/app/utils/HelperFunction";
+import { transformLinks } from "@/app/utils/HelperFunctions";
 
 export default function QuickLinks() {
   const quickLinks: string[] = ["About Us", "FAQ", "Careers"];
@@ -9,8 +9,8 @@ export default function QuickLinks() {
     <ul className="flex flex-col gap-2">
       <span className="block font-medium">Quick Links</span>
       {links.map(({ link, text }, index: number) => (
-        <li key={index}>
-          <Link href={`#${link}`} className="font-light hover:underline">
+        <li key={index} className="hover:underline">
+          <Link href={`#${link}`} className="font-light">
             {text}
           </Link>
         </li>

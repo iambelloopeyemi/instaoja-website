@@ -1,9 +1,9 @@
-import Button from "../Button";
+import Button from "../../Button";
 import Gallery from "./Gallery";
 
 export default function Hero() {
   return (
-    <section className="bg-white rounded-3xl px-20 py-16 flex items-center justify-center">
+    <section className="bg-white px-20 py-16 flex items-center justify-center">
       <div className="p-12 flex flex-col gap-10">
         <h1 className="text-olive font-bold text-4xl">
           Get your groceries delivered to your door step

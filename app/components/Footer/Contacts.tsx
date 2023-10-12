@@ -7,7 +7,7 @@ export default function Contacts() {
       {contacts.map(({ url, icon, text }, index: number) => (
         <li key={index} className="hover:underline">
           <Link href={`${url}`} className="flex items-center gap-1.5">
-            <span className="block text-[22px]">{icon}</span>
+            <i className="block text-[22px]">{icon}</i>
             <span className="block">{text}</span>
           </Link>
         </li>

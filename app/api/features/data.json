@@ -1,0 +1,22 @@
+[
+  {
+    "src": "/network.png",
+    "alt": "network icon",
+    "text": "Access to wide network of trained personal shoppers"
+  },
+  {
+    "src": "/customer-service.png",
+    "alt": "customer service icon",
+    "text": "Real time communication with personal shoppers"
+  },
+  {
+    "src": "/credit-card.png",
+    "alt": "credit card icon",
+    "text": "Flexible and secured payment options"
+  },
+  {
+    "src": "/timing.png",
+    "alt": "timing icon",
+    "text": "Fast delivery"
+  }
+]
