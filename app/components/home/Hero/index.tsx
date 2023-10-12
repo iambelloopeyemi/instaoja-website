@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="bg-white px-20 py-16 flex items-center justify-center">
       <div className="p-12 flex flex-col gap-10">
-        <h1 className="text-olive font-bold text-4xl">
+        <h1 className="text-olive font-bold text-3xl">
           Get your groceries delivered to your door step
         </h1>
         <p className="font-medium text-xl">

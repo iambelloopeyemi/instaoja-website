@@ -3,14 +3,17 @@ import { CardInfoProp } from "@/app/utils/Interfaces";
 
 export default async function Card({ data }: { data: CardInfoProp[] }) {
   return (
-    <ul className="grid grid-cols-4">
+    <ul className="grid grid-cols-2 gap-5">
       {data &&
         data.map(({ src, alt, text }, index: number) => (
-          <li key={index} className="flex flex-col items-center gap-2">
+          <li
+            key={index}
+            className="bg-white rounded-xl p-12 flex flex-col items-center gap-2"
+          >
             <div>
-              <Image src={src} alt={alt} width={100} height={100} />
+              <Image src={src} alt={alt} width={128} height={128} />
             </div>
-            <p className="text-center">{text}</p>
+            <p className="font-medium text-lg text-center">{text}</p>
           </li>
         ))}
     </ul>

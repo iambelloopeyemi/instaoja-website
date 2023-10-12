@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function HeroGallery() {
+export default function Gallery() {
   return (
     <div className="grid grid-cols-2 grid-flow-row gap-0.5">
       <div className="row-start-1 row-end-3 w-auto h-auto relative">
@@ -8,7 +8,7 @@ export default function HeroGallery() {
           src="/first_shopper.jpg"
           alt="picture of a shopper"
           fill
-          className="object-cover object-center"
+          className="w-auto h-auto object-cover object-center"
         />
       </div>
       <div className="w-auto h-auto">
@@ -17,6 +17,7 @@ export default function HeroGallery() {
           alt="picture of a shopper"
           width={500}
           height={500}
+          className="w-auto h-auto"
         />
       </div>
       <div className="w-auto h-auto">
@@ -25,6 +26,7 @@ export default function HeroGallery() {
           alt="picture of a delivery"
           width={500}
           height={500}
+          className="w-auto h-auto"
         />
       </div>
     </div>

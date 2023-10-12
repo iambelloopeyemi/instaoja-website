@@ -7,16 +7,16 @@
   {
     "src": "/customer-service.png",
     "alt": "customer service icon",
-    "text": "Real time communication with personal shoppers"
+    "text": "Personalized Service"
+  },
+  {
+    "src": "/fast-delivery.png",
+    "alt": "fast delivery icon",
+    "text": "Fast delivery"
   },
   {
     "src": "/credit-card.png",
     "alt": "credit card icon",
     "text": "Flexible and secured payment options"
-  },
-  {
-    "src": "/timing.png",
-    "alt": "timing icon",
-    "text": "Fast delivery"
   }
 ]

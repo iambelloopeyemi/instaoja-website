@@ -15,6 +15,7 @@ export default function Logo({ width, height }: LogoProp) {
           alt="instaoja logo"
           width={width}
           height={height}
+          className="w-auto h-auto"
         />
       </Link>
     </>

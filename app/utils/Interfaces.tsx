@@ -3,3 +3,8 @@ export interface CardInfoProp {
   alt: string;
   text: string;
 }
+
+export interface GalleryPictureProp {
+  src: string;
+  alt: string;
+}

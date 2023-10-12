@@ -1,5 +1,5 @@
-import Button from "../Button";
 import Logo from "../Logo";
+import Button from "../Button";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
           <Logo width={180} height={180} />
         </div>
         <div>
-          <Button url="#" text="join waitlist" />
+          <Button url="#" text="get started" />
         </div>
       </nav>
     </header>
