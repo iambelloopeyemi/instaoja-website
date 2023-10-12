@@ -3,15 +3,16 @@ import Image from "next/image";
 export default function Gallery() {
   return (
     <div className="grid grid-cols-2 grid-flow-row gap-0.5">
-      <div className="row-start-1 row-end-3 w-auto h-auto relative">
+      <div className="row-start-1 row-end-3 relative">
         <Image
           src="/first_shopper.jpg"
           alt="picture of a shopper"
           fill
+          sizes="100vw"
           className="w-auto h-auto object-cover object-center"
         />
       </div>
-      <div className="w-auto h-auto">
+      <div>
         <Image
           src="/second_shopper.jpg"
           alt="picture of a shopper"
@@ -20,7 +21,7 @@ export default function Gallery() {
           className="w-auto h-auto"
         />
       </div>
-      <div className="w-auto h-auto">
+      <div>
         <Image
           src="/delivery.jpg"
           alt="picture of a delivery"

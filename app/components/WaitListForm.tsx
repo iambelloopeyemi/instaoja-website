@@ -49,21 +49,21 @@ export default function WaitListForm() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="flex items-center gap-3 border-b border-b-olive py-1"
+        className="flex justify-center items-center gap-6 border-b border-b-olive py-1"
       >
-        <div className="w-auto h-auto">
+        <div>
           <input
             type="email"
             value={email}
             placeholder="Enter your email"
             onChange={handleEmailChange}
-            className="block outline-0 placeholder:text-yellow-green font-light text-clip"
+            className="block w-auto h-auto outline-0 placeholder:text-yellow-green font-light text-clip"
           />
         </div>
         <div>
           <button
             type="submit"
-            className="font-semibold py-1 px-3 bg-olive text-white rounded hover:scale-105"
+            className="p-2 sm:p-3 bg-olive rounded hover:scale-105 text-white font-semibold sm:font-bold text-sm sm:text-base"
           >
             SUBMIT
           </button>

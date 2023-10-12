@@ -5,8 +5,8 @@ export default function ContactUs() {
   return (
     <div className="flex flex-col gap-4">
       <p className="font-medium text-lg">Contact Us</p>
-      <Contacts />
       <Socials />
+      <Contacts />
     </div>
   );
 }

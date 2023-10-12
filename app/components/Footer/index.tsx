@@ -5,13 +5,16 @@ import Copyright from "./Copyright";
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-20">
-      <div className="px-5 py-10 flex justify-around">
-        <div>
+    <footer className="bg-white px-5 sm:px-10 lg:px-20">
+      <div className="px-5 py-10">
+        <div className="mb-6">
           <Logo width={200} height={200} />
         </div>
-        <SiteMap />
-        <ContactUs />
+        <div className="flex max-sm:flex-col justify-around">
+          <div></div>
+          <SiteMap />
+          <ContactUs />
+        </div>
       </div>
       <div className="py-3 border-t border-t-olive">
         <Copyright />

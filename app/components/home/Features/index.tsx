@@ -11,9 +11,9 @@ export default async function Features() {
   const data: CardInfoProp[] = await fetchCardInfo();
 
   return (
-    <section className="px-5 py-16">
+    <section className="p-8 sm:py-16">
       <div className="text-center mb-12">
-        <h2 className="text-olive font-bold text-3xl mb-3">
+        <h2 className="text-olive font-semibold sm:font-bold text-2xl sm:text-3xl mb-3">
           Don&apos;t have the time or simply dislike the hassle of grocery
           shopping?
         </h2>

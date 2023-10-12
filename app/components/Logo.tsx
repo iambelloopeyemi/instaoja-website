@@ -9,13 +9,13 @@ interface LogoProp {
 export default function Logo({ width, height }: LogoProp) {
   return (
     <>
-      <Link href="/" className="w-auto h-auto">
+      <Link href="/">
         <Image
           src="/instaoja_logo.png"
           alt="instaoja logo"
           width={width}
           height={height}
-          className="w-auto h-auto"
+          className="w-28 sm:w-32 md:w-40 lg:w-auto h-auto"
         />
       </Link>
     </>
