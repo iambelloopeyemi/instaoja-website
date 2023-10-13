@@ -3,7 +3,7 @@ import Hero from "./components/home/Hero";
 import Features from "./components/home/Features";
 import AboutUs from "./components/home/AboutUs";
 import CallToAction from "./components/home/CallToAction";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
