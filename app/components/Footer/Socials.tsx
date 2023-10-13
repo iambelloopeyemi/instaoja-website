@@ -6,7 +6,7 @@ export default function Socials() {
     <ul className="flex items-center gap-6">
       {socials.map(({ url, icon }, index: number) => (
         <li key={index} className="hover:scale-105">
-          <Link href={`${url}`} className="text-[32px]">
+          <Link href={`${url}`} target="_blank" className="text-[32px]">
             {icon}
           </Link>
         </li>

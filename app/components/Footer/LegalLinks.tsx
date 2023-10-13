@@ -10,7 +10,7 @@ export default function LegalLinks() {
       <span className="block font-medium">Legal</span>
       {links.map(({ link, text }, index: number) => (
         <li key={index} className="hover:underline">
-          <Link href={`#${link}`} className="font-light">
+          <Link href={`${link}`} className="font-light">
             {text}
           </Link>
         </li>

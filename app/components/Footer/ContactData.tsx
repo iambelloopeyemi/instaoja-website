@@ -9,15 +9,15 @@ interface ContactUsProp {
 
 export const socials: ContactUsProp[] = [
   {
-    url: "#",
+    url: "https://www.linkedin.com/company/instaoja/",
     icon: <FaLinkedin />,
   },
   {
-    url: "#",
+    url: "https://www.instagram.com/instaoja/",
     icon: <FaInstagram />,
   },
   {
-    url: "#",
+    url: "https://twitter.com/instaoja",
     icon: <FaTwitter />,
   },
 ];
