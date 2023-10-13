@@ -1,7 +1,7 @@
-import Footer from "../components/Footer";
-import Header from "./Header";
 import Hero from "../components/Hero";
 import InfoCard from "../components/about-us/InfoCard";
+import Footer from "./Footer";
+import Header from "./Header";
 
 interface NoContentProp {
   title: string;
