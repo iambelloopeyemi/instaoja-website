@@ -2,7 +2,7 @@ import { CardInfoProp } from "@/app/utils/Interfaces";
 import Card from "./Card";
 
 async function fetchCardInfo() {
-  const response = await fetch("http://localhost:3000/api/features", {
+  const response = await fetch("/api/features", {
     next: { revalidate: 100 },
   });
   const CardInfo = await response.json();

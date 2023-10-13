@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 import Button from "../../Button";
 
 async function fetchGalleryPictures() {
-  const response = await fetch("http://localhost:3000/api/about-us", {
+  const response = await fetch("/api/about-us", {
     next: { revalidate: 100 },
   });
   const GalleryPictures = await response.json();
