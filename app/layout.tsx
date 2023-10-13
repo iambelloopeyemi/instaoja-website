@@ -1,19 +1,21 @@
 import "./globals.css";
+import { ReactNode } from "react";
 import type { Metadata } from "next";
+import { montserrat } from "./utils/Fonts";
 
 export const metadata: Metadata = {
   title: "InstaOja",
   description: "",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`bg-nyanza ${montserrat.className} text-jet flex flex-col`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
